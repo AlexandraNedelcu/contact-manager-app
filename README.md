@@ -1,20 +1,20 @@
-### Contact Manager (React + Jest + Playwright)
+## Contact Manager (React + Jest + Playwright)
 
 A simple contact management app built with React, tested with Jest and Playwright, and integrated with GitHub Actions for CI.
 
-## Features
+# Features
 - Add/delete contacts
 - Persist data with localStorage
 - Unit tests (Jest)
 - E2E tests (Playwright)
 - GitHub Actions for automated testing on push
 
-## Install
+# Install
 ```bash
 npm install
 ```
 
-## Run tests
+# Run tests
 ```bash
 # Unit tests
 npm test
@@ -24,5 +24,5 @@ npm start # in one terminal
 npx playwright test # in another
 ```
 
-## CI
+# CI
 All tests are run automatically via GitHub Actions on every push to `main`.
