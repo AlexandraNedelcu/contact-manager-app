@@ -1,4 +1,4 @@
-Contact Manager (React + Jest + Playwright)
+### Contact Manager (React + Jest + Playwright)
 
 A simple contact management app built with React, tested with Jest and Playwright, and integrated with GitHub Actions for CI.
 
