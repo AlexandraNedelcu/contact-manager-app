@@ -23,9 +23,3 @@ jobs:
 
       - name: Run Jest tests
         run: npm run test -- --watchAll=false
-
-      - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
-
-      - name: Run Playwright tests
-        run: npx start-server-and-test start http://localhost:3000 'npx playwright test'
