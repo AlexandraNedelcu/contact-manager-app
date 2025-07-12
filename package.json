@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "jest-w": "jest --watch"
   },
   "eslintConfig": {
     "extends": [
@@ -35,8 +36,10 @@
     ]
   },
   "devDependencies": {
+    "@playwright/test": "^1.54.1",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
+    "@types/node": "^24.0.13",
     "jest": "^27.5.1",
     "playwright": "^1.54.1"
   }
